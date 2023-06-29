@@ -38,6 +38,7 @@
 			</table>
 		</form>
 		<form action="<%=request.getContextPath()%>/member/insertMemberForm.jsp" method="post" id="insertMember"></form>
+		<div><br></div>
 		<button class="btn btn-outline-primary" type="submit" form="login">로그인</button>
 		<button class="btn btn-outline-primary" type="submit" form="insertMember">회원가입</button>
 <%
