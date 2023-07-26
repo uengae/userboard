@@ -33,6 +33,7 @@
 				<jsp:include page="/inc/mainMenu.jsp"></jsp:include>
 			</div>
 			<div class="col-md-9">
+			<div>&nbsp;</div>
 				<h1>회원탈퇴</h1>
 				<div>
 				<%

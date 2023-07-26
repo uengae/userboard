@@ -9,8 +9,8 @@
 		<br>
 		사용 툴: Eclipse, HeidiSQL<br>
 		사용언어: java, SQL, jsp<br>
-		사용 DB: MariaDB(3.1.3)<br>
-		사용 WAS: Tomcat (10.1.7)<br>
+		사용 DB: MariaDB(10.5)<br>
+		사용 WAS: Tomcat (9.0)<br>
 		<br>
 		개발내용<br>
 		페이징, 10페이지 단위 이동 구현<br>

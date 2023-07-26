@@ -2,6 +2,7 @@
 <%
 	String loginMemberId = (String)session.getAttribute("loginMemberId");
 %>
+	<div>&nbsp;</div>
 	<div class="text-center">
 	<a href="<%=request.getContextPath()%>/home.jsp">
 		<button class="btn btn-lg btn-primary" type="button">홈으로</button>
@@ -24,7 +25,7 @@
 				</tr>
 				<tr>
 					<td>
-						<input type="text" name="memberId">
+						<input type="text" name="memberId" value="user1">
 					</td>
 				</tr>
 				<tr>
@@ -32,7 +33,7 @@
 				</tr>
 				<tr>
 					<td>
-						<input type="password" name="memberPw">
+						<input type="password" name="memberPw" value="1234">
 					</td>
 				</tr>
 			</table>

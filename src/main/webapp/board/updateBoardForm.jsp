@@ -40,7 +40,7 @@
 	// 2. 모델 계층
 	
 	String driver = "org.mariadb.jdbc.Driver";
-	String dbUrl= "jdbc:mariadb://127.0.0.1:3306/userboard";
+	String dbUrl= "jdbc:mariadb://43.201.156.144:3306/userboard";
 	String dbUser = "root";
 	String dbPw = "java1234";
 	Class.forName(driver);
@@ -100,6 +100,7 @@
 			</div>
 	<!-- 게시글 -->
 			<div class="col-md-9">
+			<div>&nbsp;</div>
 			<h3>게시글</h3>
 				<form action="<%=request.getContextPath()%>/board/updateBoardAction.jsp" id="submit" method="post">
 					<table class="table caption-top">

@@ -39,7 +39,7 @@
 
 	// 2. 모델 계층
 	String driver = "org.mariadb.jdbc.Driver";
-	String dbUrl= "jdbc:mariadb://127.0.0.1:3306/userboard";
+	String dbUrl= "jdbc:mariadb://43.201.156.144:3306/userboard";
 	String dbUser = "root";
 	String dbPw = "java1234";
 	Class.forName(driver);
@@ -117,7 +117,7 @@
 		// request.getRequestDispatcher(request.getContextPath() + "/inc/copyRight.jsp").include(request, response);
 		// 이코드를 액션태그로 변경하면 아래와 같다.
 	%>
-	<!-- 메인메뉴(가로) -->
+	<!-- 메인메뉴 -->
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-3">
@@ -128,6 +128,7 @@
 			</div>
 	<!--[시작]boardList-------------------------------------------------------------->
 			<div class="col-md-9">
+			<div>&nbsp;</div>
 			<h1>게시판</h1>
 			<div>
 				<table class="table table-hover caption-top">

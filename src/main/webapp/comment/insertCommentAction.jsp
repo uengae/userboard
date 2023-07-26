@@ -21,13 +21,13 @@
 
 	// 2. 모델 계층
 	String driver = "org.mariadb.jdbc.Driver";
-	String dbUrl= "jdbc:mariadb://127.0.0.1:3306/userboard";
+	String dbUrl= "jdbc:mariadb://43.201.156.144:3306/userboard";
 	String dbUser = "root";
 	String dbPw = "java1234";
 	Class.forName(driver);
 	Connection conn = DriverManager.getConnection(dbUrl, dbUser, dbPw);
 	
-	String insertCommentSql = "INSERT INTO COMMENT(board_no, comment_content, member_id, createdate, updatedate) value(?, ?, ?, NOW(), NOW())";
+	String insertCommentSql = "INSERT INTO comment(board_no, comment_content, member_id, createdate, updatedate) value(?, ?, ?, NOW(), NOW())";
 	PreparedStatement insertCommentStmt = conn.prepareStatement(insertCommentSql);
 	insertCommentStmt.setInt(1, boardNo);
 	insertCommentStmt.setString(2, commentContent);

@@ -24,6 +24,7 @@
 				<jsp:include page="/inc/mainMenu.jsp"></jsp:include>
 			</div>
 			<div class="col-md-9">
+			<div>&nbsp;</div>
 			<h1>회원 가입</h1>
 			<div>
 			<%
