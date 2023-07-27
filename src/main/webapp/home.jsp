@@ -206,7 +206,7 @@
 						if (currentPage > 1){
 			%>
 							<td>
-								<a class="btn btn-sm" href="<%=request.getContextPath()%>/home.jsp?currentPage=<%=prePage%>&rowPerPage=<%=rowPerPage%>">
+								<a class="btn btn-sm" href="<%=request.getContextPath()%>/home.jsp?localName=<%=localName%>&currentPage=<%=prePage%>&rowPerPage=<%=rowPerPage%>">
 									이전
 								</a>
 							</td>
@@ -219,7 +219,7 @@
 							}
 			%>
 							<td class="<%=highlightCurrentPage%>">
-								<a class="btn btn-sm" href="<%=request.getContextPath()%>/home.jsp?currentPage=<%=i%>&rowPerPage=<%=rowPerPage%>">
+								<a class="btn btn-sm" href="<%=request.getContextPath()%>/home.jsp?localName=<%=localName%>&currentPage=<%=i%>&rowPerPage=<%=rowPerPage%>">
 									<%=i%>
 								</a>
 							</td>
@@ -235,7 +235,7 @@
 						if (currentPage < totalPageCnt){
 			%>
 							<td>
-								<a class="btn btn-sm" href="<%=request.getContextPath()%>/home.jsp?currentPage=<%=nextPage%>&rowPerPage=<%=rowPerPage%>">
+								<a class="btn btn-sm" href="<%=request.getContextPath()%>/home.jsp?localName=<%=localName%>&currentPage=<%=nextPage%>&rowPerPage=<%=rowPerPage%>">
 									다음
 								</a>
 							</td>
