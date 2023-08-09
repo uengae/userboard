@@ -1,8 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<div>
+<div class="container-fluid">
 	Copyright &copy; 구디아카데미
 </div>
 <hr>
+<div class="container-fluid">
 	<h3>userboard프로젝트</h3>
 	<div>
 		프로젝트 내용 : 게시판 작성<br>
@@ -19,3 +20,4 @@
 		로그인 기능 구현<br>
 		기간 2023.05.02 ~ 2023.05.15<br>
 	</div>
+</div>
